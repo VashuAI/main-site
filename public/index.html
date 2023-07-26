@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/spinner.css" />
+
+  <script src="js/main.js" defer></script>
+  <title>VisualVibes</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <div class="logo1"><span><img src="img/logo.png" alt="logo"></span><span
+            style="font-size: 20px;"></span></div>
+
+
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li>
+            <a href="#more-tools">More Tools</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="showcase">
+      <video class="video-background" src="img/bgvi.mp4" autoplay muted loop></video>
+      <form id="image-form">
+        <h1 class="text">Describe An Image</h1> <br>
+        <div class="form-control">
+          <input type="text" id="prompt" placeholder="Enter Text" />
+        </div>
+        <!-- size -->
+        <div class="form-control">
+          <select name="size" id="size">
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Generate</button>
+        <button class="bn30">Download</button>
+        <br>
+        <a style="text-decoration: none;" href="https://live-fzj0.onrender.com/" target="_blank">
+          <H3 style="color: rgb(195, 255, 0); font-size: 20px; 
+        background-color: rgba(13, 129, 230, 0.736); border-radius: 100px;">
+            <img src="img/bot (2).png" alt="" width="50px" height="50px">
+          </h3>
+        </a>
+        <span
+          style="top: -10px; color: rgb(12, 12, 12); font-size: 20px; font-weight: bolder; border-radius: 20px; background-color: rgba(240, 255, 255, 0.546);">Openai
+          ChatBot</span>
+
+
+      </form>
+
+
+
+    </section>
+
+    <section class="image">
+      <div class="image-container">
+        <h2 class="msg"></h2>
+        <img src="" alt="" id="image" />
+      </div>
+    </section>
+  </main>
+
+  <section class="lower">
+    <div class="about">
+      <span>About Us</span> <br>
+      <span class="about-full"> VisualVibes, powered by VASHUTECHsyst, is revolutionizing the world of photography
+        and creative expression.
+        With its seamless AI-driven photo generation capabilities, user-friendly interface, and a thriving community of
+        artists,
+        VisualVibes is the go-to platform for unleashing your imagination and turning your visions into reality. Whether
+        you're
+        a professional photographer or a creative hobbyist,
+        VisualVibes welcomes you to experience a new era of artistic possibilities.</span>
+
+    </div>
+  </section>
+
+  <section id="more-tools" class="more-tools"> <br>
+    <h2>More Tools</h2>
+    <br>
+    <img src="img/edit-photo.jpg" alt="edit-photo">
+    <span class="edit-photo">The Free Online Photo Editor In Your Browser</span><br>
+    <a href="https://edit.photo/"> <button  class="btn">Visit</button></a>
+    <br> <br> <br>
+    <img src="img/adobe.jpg" alt="adobe express">
+    <span class="edit-photo">Adobe Express is an all-in-one design, photo, and video tool to make content creation easy. <br>
+       Quickly and easily make stunning social content, videos, logos <br>
+      Create an account and enjoy</span><br>
+    <a href="https://auth.services.adobe.com/en_US/index.html?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2Fprojectx_webapp%2FAdobeID%2Ftoken%3Fredirect_uri%3Dhttps%253A%252F%252Fnew.express.adobe.com%252F%253Fpromoid%253DNV3KQYZ7%2526mv%253Dproduct%2526mv2%253Daccc%2526locale%253Den%2523old_hash%253Dold_hash%253D%2526%2526from_ims%253Dtrue%2526client_id%253Dprojectx_webapp%2526api%253Dauthorize%2526scope%253Dab.manage%252CAdobeID%252Copenid%252Cread_organizations%252Ccreative_cloud%252Ccreative_sdk%252Ctk_platform%252Ctk_platform_sync%252Caf_byof%252Cstk.a.license_skip.r%252Cstk.a.limited_license.cru%252Cadditional_info.optionalAgreements%252Cuds_read%252Cuds_write%252Caf_ltd_projectx%252Cunified_dev_portal%252Cadditional_info.ownerOrg%252Cadditional_info.roles%252Cadditional_info.roles%252CDCAPI%252Cadditional_info.auth_source%252Cadditional_info.authenticatingAccount%252Cpps.write%252Cpps.delete%252Ctk_platform_grant_free_subscription%252Cpps.read%26state%3D%257B%2522jslibver%2522%253A%2522v2-v0.31.0-2-g1e8a8a8%2522%252C%2522nonce%2522%253A%25221505673344229731%2522%257D%26code_challenge_method%3Dplain%26use_ms_for_expiry%3Dtrue&client_id=projectx_webapp&scope=ab.manage%2CAdobeID%2Copenid%2Cread_organizations%2Ccreative_cloud%2Ccreative_sdk%2Ctk_platform%2Ctk_platform_sync%2Caf_byof%2Cstk.a.license_skip.r%2Cstk.a.limited_license.cru%2Cadditional_info.optionalAgreements%2Cuds_read%2Cuds_write%2Caf_ltd_projectx%2Cunified_dev_portal%2Cadditional_info.ownerOrg%2Cadditional_info.roles%2CDCAPI%2Cadditional_info.auth_source%2Cadditional_info.authenticatingAccount%2Cpps.write%2Cpps.delete%2Ctk_platform_grant_free_subscription%2Cpps.read&denied_callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fdenied%2Fprojectx_webapp%3Fredirect_uri%3Dhttps%253A%252F%252Fnew.express.adobe.com%252F%253Fpromoid%253DNV3KQYZ7%2526mv%253Dproduct%2526mv2%253Daccc%2526locale%253Den%2523old_hash%253Dold_hash%253D%2526%2526from_ims%253Dtrue%2526client_id%253Dprojectx_webapp%2526api%253Dauthorize%2526scope%253Dab.manage%252CAdobeID%252Copenid%252Cread_organizations%252Ccreative_cloud%252Ccreative_sdk%252Ctk_platform%252Ctk_platform_sync%252Caf_byof%252Cstk.a.license_skip.r%252Cstk.a.limited_license.cru%252Cadditional_info.optionalAgreements%252Cuds_read%252Cuds_write%252Caf_ltd_projectx%252Cunified_dev_portal%252Cadditional_info.ownerOrg%252Cadditional_info.roles%252Cadditional_info.roles%252CDCAPI%252Cadditional_info.auth_source%252Cadditional_info.authenticatingAccount%252Cpps.write%252Cpps.delete%252Ctk_platform_grant_free_subscription%252Cpps.read%26response_type%3Dtoken%26state%3D%257B%2522jslibver%2522%253A%2522v2-v0.31.0-2-g1e8a8a8%2522%252C%2522nonce%2522%253A%25221505673344229731%2522%257D&state=%7B%22jslibver%22%3A%22v2-v0.31.0-2-g1e8a8a8%22%2C%22nonce%22%3A%221505673344229731%22%7D&relay=b4a0334e-e2cf-41aa-8e9e-dd058db286c7&locale=en_US&flow_type=token&idp_flow_type=login&s_p=google%2Cfacebook%2Capple&response_type=token#/"> <button  class="btn">Visit</button></a>
+    <br>
+  </section>
+  <footer class="lastone">
+    <a style="text-decoration: none;" href="https://vashutechsyst.onrender.com/" target="_blank"> <h1>a VASHUTECHsyst product </h1></a>
+    
+    &#169;Copyright 2023
+   <div style="display: inline-block;">INDIA</div><img style="border-radius: 100px;" src="img/Flag_of_India.svg.webp" alt="" height="40px" width="40px">
+  </footer>
+  <div class="spinner"></div>
+  <script>
+    function scrollToDiv() {
+      const myDiv = document.getElementById("#more-tools");
+      myDiv.scrollIntoView({ behavior: "smooth" });
+    }
+    </script>
+</body>
+
+</html>
